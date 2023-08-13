@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="cityAndTime">Port Harcourt</h1>
+      <div id="date"></div>
+      <div id="temperature">&#x26C5;25°C</div>
+      <div id="precipitation">Precipitation: 42%</div>
+      <div id="wind">Wind: 30km/h</div>
+
+      <form id="search-form">
+        <input type="text" id="city-input" placeholder="Enter a city" />
+        <button type="submit">Search</button>
+      </form>
+
+      <div id="forecast" class="forecast-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <p>
+    <a href="https://github.com/Pretty1111/Weather-App" target="_blank"
+      >Open-source code</a
+    >
+    by Pretty.
+  </p>
+</html>
