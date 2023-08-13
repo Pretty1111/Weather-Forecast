@@ -28,7 +28,7 @@ function displayWeatherCondition(response) {
     "#precipitation"
   ).innerHTML = `Precipitation: ${response.data.main.humidity}%`;
   document.querySelector("#wind").innerHTML = `Wind: ${Math.round(
-    response.data.wind.speed
+    response.data.wind.speed * 3.6
   )}km/h`;
 
   // Call forecast API and display forecast
