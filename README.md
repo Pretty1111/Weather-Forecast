@@ -2,7 +2,7 @@
 
 ## Description
 
-The Weather Forecast Application is an interactive web application created using HTML, CSS, JavaScript, Bootstrap 5.3, and axios. It provides users with current weather details and forecast information for any city they search for. The UI is responsive and user-friendly, displaying temperature, humidity, wind speed, and weather icons.
+The Weather Forecast Application is an interactive web application created using HTML, CSS, JavaScript, Bootstrap 5.3, and axios. It provides users with current weather details and forecast information for any city they search for through the Open Weather API, accessed via SheCodes. The UI is responsive and user-friendly, displaying temperature, humidity, wind speed, and weather icons.
 
 ### Live Version
 
